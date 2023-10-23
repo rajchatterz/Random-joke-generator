@@ -13,7 +13,6 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    
 }
 .body{
     height: 500px;
@@ -23,8 +22,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     text-align: center;
+    border-radius: 10px;
 }
 #emoji{
     font-size: 100px;
