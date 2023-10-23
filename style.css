@@ -1,5 +1,52 @@
+
 *{
     margin: 0;
     padding: 0;
+    background-color: black;
+}
+body{
     background-color: yellow;
+    color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.body{
+    height: 500px;
+    padding: 10px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+#emoji{
+    font-size: 100px;
+}
+#setup{
+    font-size: 28px;
+    font-family: 'Playpen Sans', cursive;
+}
+#delivery{
+    font-size: 20px;
+    font-family: 'Playpen Sans', cursive;
+}
+#btn{
+    background-color: rgb(249, 249, 2);
+    color: rgb(89, 68, 68);
+    padding: 17px 20px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+@media screen and (min-width:480px){
+    .body{
+        width: 430px;
+        height: 700px;
+    }
 }
